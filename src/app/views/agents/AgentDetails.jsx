@@ -91,7 +91,7 @@ const AgentDetails = (props) => {
                             },
                             {
                                 name:
-                                    agentData.name + ' (' + agentData.ip + ')',
+                                    agentData.name + ' | '+ agentData.os+ ' | ' + agentData.ip,
                                 path: '/',
                             },
                         ]}
